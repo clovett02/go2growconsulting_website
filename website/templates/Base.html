@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="/static/css/main.css" />
+    {% block Other_CSS_Links %} {% endblock %}
+    <title>{{pagename}}</title>
+</head>
+<body>
+    <!-- <a class="openbtn" onclick="openNav()">Open Sidebar</a>
+    <div id="mySidepanel" class="sidepanel">
+        <button class="closebtn" onclick="closeNav()">&times;</button>
+        
+        <a href="/">Home</a> 
+        <a href="/resume">Resume</a>
+        <a href="/projects">Projects</a>
+    </div> -->
+
+    {% block body %} {% endblock %}
+        
+    <!-- <script src="/static/javascript/sidepanel.js"></script>
+    <script src="/static/javascript/main.js"></script> -->
+
+</body>
+</html>
