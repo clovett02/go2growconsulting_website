@@ -1,0 +1,11 @@
+version: "3.8"
+
+services:
+  localsite:
+    image: go2grow_website:latest
+    container_name: go2grow_website
+    ports:
+      - 80:80
+
+
+  
