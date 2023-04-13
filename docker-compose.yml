@@ -3,6 +3,8 @@ version: "3.8"
 services:
   go2grow_website:
     image: go2grow_website:latest
+    build:
+      context: .
     ports:
       - "5000"
     volumes:
