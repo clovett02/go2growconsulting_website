@@ -7,19 +7,16 @@
     <title>{{pagename}}</title>
 </head>
 <body>
-    <!-- <a class="openbtn" onclick="openNav()">Open Sidebar</a>
-    <div id="mySidepanel" class="sidepanel">
-        <button class="closebtn" onclick="closeNav()">&times;</button>
-        
-        <a href="/">Home</a> 
-        <a href="/resume">Resume</a>
-        <a href="/projects">Projects</a>
-    </div> -->
+    <div class="navbar">
+        <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/about">About</a></li>
+            <li><a href="/contact">Contact</a></li>
+        </ul>
+    </div>
+    
 
     {% block body %} {% endblock %}
-        
-    <!-- <script src="/static/javascript/sidepanel.js"></script>
-    <script src="/static/javascript/main.js"></script> -->
 
 </body>
 </html>
