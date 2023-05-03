@@ -1,4 +1,9 @@
-.ContactInfo {
+.ContactText {
     font-size: 20px;
     font-weight: 800;
+}
+
+.ContactInfo {
+    font-size: 18px;
+    font-weight: 700;
 }
