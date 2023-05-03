@@ -39,5 +39,12 @@ html {
 .logo {
     position: absolute;
     padding-top: 10px;
-    right: 10px;
+    right: 30px;
+    padding-left: 10px;
+}
+
+.logo :hover {
+    transition-property: rotate;
+    rotate: 360deg;
+    transition-duration: 7s;
 }
