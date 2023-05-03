@@ -1,12 +1,15 @@
 html {
     background-color: lightgrey;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .navbar {
     border: 5px;
     border-color: purple;
     border-style: solid;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 .navbar ul {
